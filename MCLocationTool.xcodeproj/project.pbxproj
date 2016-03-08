@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		907111C81C8DC21200C18D94 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 907111C71C8DC21200C18D94 /* main.m */; };
+		907111CB1C8DC21200C18D94 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 907111CA1C8DC21200C18D94 /* AppDelegate.m */; };
+		907111CE1C8DC21200C18D94 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 907111CD1C8DC21200C18D94 /* ViewController.m */; };
+		907111D11C8DC21200C18D94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 907111CF1C8DC21200C18D94 /* Main.storyboard */; };
+		907111D31C8DC21200C18D94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 907111D21C8DC21200C18D94 /* Assets.xcassets */; };
+		907111D61C8DC21200C18D94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 907111D41C8DC21200C18D94 /* LaunchScreen.storyboard */; };
+		907111E11C8DC21200C18D94 /* MCLocationToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 907111E01C8DC21200C18D94 /* MCLocationToolTests.m */; };
+		907111EC1C8DC21200C18D94 /* MCLocationToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 907111EB1C8DC21200C18D94 /* MCLocationToolUITests.m */; };
+		907111FB1C8DC2E300C18D94 /* MCLocationTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 907111FA1C8DC2E300C18D94 /* MCLocationTool.m */; };
+		907111FD1C8DC3AB00C18D94 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 907111FC1C8DC3AB00C18D94 /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		907111DD1C8DC21200C18D94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 907111BB1C8DC21200C18D94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 907111C21C8DC21200C18D94;
+			remoteInfo = MCLocationTool;
+		};
+		907111E81C8DC21200C18D94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 907111BB1C8DC21200C18D94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 907111C21C8DC21200C18D94;
+			remoteInfo = MCLocationTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		907111C31C8DC21200C18D94 /* MCLocationTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MCLocationTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		907111C71C8DC21200C18D94 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		907111C91C8DC21200C18D94 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		907111CA1C8DC21200C18D94 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		907111CC1C8DC21200C18D94 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		907111CD1C8DC21200C18D94 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		907111D01C8DC21200C18D94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		907111D21C8DC21200C18D94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		907111D51C8DC21200C18D94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		907111D71C8DC21200C18D94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		907111DC1C8DC21200C18D94 /* MCLocationToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MCLocationToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		907111E01C8DC21200C18D94 /* MCLocationToolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCLocationToolTests.m; sourceTree = "<group>"; };
+		907111E21C8DC21200C18D94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		907111E71C8DC21200C18D94 /* MCLocationToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MCLocationToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		907111EB1C8DC21200C18D94 /* MCLocationToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCLocationToolUITests.m; sourceTree = "<group>"; };
+		907111ED1C8DC21200C18D94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		907111F91C8DC2E300C18D94 /* MCLocationTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCLocationTool.h; sourceTree = "<group>"; };
+		907111FA1C8DC2E300C18D94 /* MCLocationTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCLocationTool.m; sourceTree = "<group>"; };
+		907111FC1C8DC3AB00C18D94 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		907111C01C8DC21200C18D94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				907111FD1C8DC3AB00C18D94 /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		907111D91C8DC21200C18D94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		907111E41C8DC21200C18D94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		907111BA1C8DC21200C18D94 = {
+			isa = PBXGroup;
+			children = (
+				907111FC1C8DC3AB00C18D94 /* CoreLocation.framework */,
+				907111C51C8DC21200C18D94 /* MCLocationTool */,
+				907111DF1C8DC21200C18D94 /* MCLocationToolTests */,
+				907111EA1C8DC21200C18D94 /* MCLocationToolUITests */,
+				907111C41C8DC21200C18D94 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		907111C41C8DC21200C18D94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				907111C31C8DC21200C18D94 /* MCLocationTool.app */,
+				907111DC1C8DC21200C18D94 /* MCLocationToolTests.xctest */,
+				907111E71C8DC21200C18D94 /* MCLocationToolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		907111C51C8DC21200C18D94 /* MCLocationTool */ = {
+			isa = PBXGroup;
+			children = (
+				907111C91C8DC21200C18D94 /* AppDelegate.h */,
+				907111CA1C8DC21200C18D94 /* AppDelegate.m */,
+				907111CC1C8DC21200C18D94 /* ViewController.h */,
+				907111CD1C8DC21200C18D94 /* ViewController.m */,
+				907111F91C8DC2E300C18D94 /* MCLocationTool.h */,
+				907111FA1C8DC2E300C18D94 /* MCLocationTool.m */,
+				907111CF1C8DC21200C18D94 /* Main.storyboard */,
+				907111D21C8DC21200C18D94 /* Assets.xcassets */,
+				907111D41C8DC21200C18D94 /* LaunchScreen.storyboard */,
+				907111D71C8DC21200C18D94 /* Info.plist */,
+				907111C61C8DC21200C18D94 /* Supporting Files */,
+			);
+			path = MCLocationTool;
+			sourceTree = "<group>";
+		};
+		907111C61C8DC21200C18D94 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				907111C71C8DC21200C18D94 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		907111DF1C8DC21200C18D94 /* MCLocationToolTests */ = {
+			isa = PBXGroup;
+			children = (
+				907111E01C8DC21200C18D94 /* MCLocationToolTests.m */,
+				907111E21C8DC21200C18D94 /* Info.plist */,
+			);
+			path = MCLocationToolTests;
+			sourceTree = "<group>";
+		};
+		907111EA1C8DC21200C18D94 /* MCLocationToolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				907111EB1C8DC21200C18D94 /* MCLocationToolUITests.m */,
+				907111ED1C8DC21200C18D94 /* Info.plist */,
+			);
+			path = MCLocationToolUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		907111C21C8DC21200C18D94 /* MCLocationTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 907111F01C8DC21200C18D94 /* Build configuration list for PBXNativeTarget "MCLocationTool" */;
+			buildPhases = (
+				907111BF1C8DC21200C18D94 /* Sources */,
+				907111C01C8DC21200C18D94 /* Frameworks */,
+				907111C11C8DC21200C18D94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MCLocationTool;
+			productName = MCLocationTool;
+			productReference = 907111C31C8DC21200C18D94 /* MCLocationTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		907111DB1C8DC21200C18D94 /* MCLocationToolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 907111F31C8DC21200C18D94 /* Build configuration list for PBXNativeTarget "MCLocationToolTests" */;
+			buildPhases = (
+				907111D81C8DC21200C18D94 /* Sources */,
+				907111D91C8DC21200C18D94 /* Frameworks */,
+				907111DA1C8DC21200C18D94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				907111DE1C8DC21200C18D94 /* PBXTargetDependency */,
+			);
+			name = MCLocationToolTests;
+			productName = MCLocationToolTests;
+			productReference = 907111DC1C8DC21200C18D94 /* MCLocationToolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		907111E61C8DC21200C18D94 /* MCLocationToolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 907111F61C8DC21200C18D94 /* Build configuration list for PBXNativeTarget "MCLocationToolUITests" */;
+			buildPhases = (
+				907111E31C8DC21200C18D94 /* Sources */,
+				907111E41C8DC21200C18D94 /* Frameworks */,
+				907111E51C8DC21200C18D94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				907111E91C8DC21200C18D94 /* PBXTargetDependency */,
+			);
+			name = MCLocationToolUITests;
+			productName = MCLocationToolUITests;
+			productReference = 907111E71C8DC21200C18D94 /* MCLocationToolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		907111BB1C8DC21200C18D94 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Zmc;
+				TargetAttributes = {
+					907111C21C8DC21200C18D94 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					907111DB1C8DC21200C18D94 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 907111C21C8DC21200C18D94;
+					};
+					907111E61C8DC21200C18D94 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 907111C21C8DC21200C18D94;
+					};
+				};
+			};
+			buildConfigurationList = 907111BE1C8DC21200C18D94 /* Build configuration list for PBXProject "MCLocationTool" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 907111BA1C8DC21200C18D94;
+			productRefGroup = 907111C41C8DC21200C18D94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				907111C21C8DC21200C18D94 /* MCLocationTool */,
+				907111DB1C8DC21200C18D94 /* MCLocationToolTests */,
+				907111E61C8DC21200C18D94 /* MCLocationToolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		907111C11C8DC21200C18D94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				907111D61C8DC21200C18D94 /* LaunchScreen.storyboard in Resources */,
+				907111D31C8DC21200C18D94 /* Assets.xcassets in Resources */,
+				907111D11C8DC21200C18D94 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		907111DA1C8DC21200C18D94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		907111E51C8DC21200C18D94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		907111BF1C8DC21200C18D94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				907111CE1C8DC21200C18D94 /* ViewController.m in Sources */,
+				907111CB1C8DC21200C18D94 /* AppDelegate.m in Sources */,
+				907111FB1C8DC2E300C18D94 /* MCLocationTool.m in Sources */,
+				907111C81C8DC21200C18D94 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		907111D81C8DC21200C18D94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				907111E11C8DC21200C18D94 /* MCLocationToolTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		907111E31C8DC21200C18D94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				907111EC1C8DC21200C18D94 /* MCLocationToolUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		907111DE1C8DC21200C18D94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 907111C21C8DC21200C18D94 /* MCLocationTool */;
+			targetProxy = 907111DD1C8DC21200C18D94 /* PBXContainerItemProxy */;
+		};
+		907111E91C8DC21200C18D94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 907111C21C8DC21200C18D94 /* MCLocationTool */;
+			targetProxy = 907111E81C8DC21200C18D94 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		907111CF1C8DC21200C18D94 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				907111D01C8DC21200C18D94 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		907111D41C8DC21200C18D94 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				907111D51C8DC21200C18D94 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		907111EE1C8DC21200C18D94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		907111EF1C8DC21200C18D94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		907111F11C8DC21200C18D94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MCLocationTool/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zmc.ios..MCLocationTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		907111F21C8DC21200C18D94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MCLocationTool/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zmc.ios..MCLocationTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		907111F41C8DC21200C18D94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MCLocationToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zmc.ios..MCLocationToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MCLocationTool.app/MCLocationTool";
+			};
+			name = Debug;
+		};
+		907111F51C8DC21200C18D94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MCLocationToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zmc.ios..MCLocationToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MCLocationTool.app/MCLocationTool";
+			};
+			name = Release;
+		};
+		907111F71C8DC21200C18D94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MCLocationToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zmc.ios..MCLocationToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MCLocationTool;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		907111F81C8DC21200C18D94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MCLocationToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zmc.ios..MCLocationToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MCLocationTool;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		907111BE1C8DC21200C18D94 /* Build configuration list for PBXProject "MCLocationTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				907111EE1C8DC21200C18D94 /* Debug */,
+				907111EF1C8DC21200C18D94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		907111F01C8DC21200C18D94 /* Build configuration list for PBXNativeTarget "MCLocationTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				907111F11C8DC21200C18D94 /* Debug */,
+				907111F21C8DC21200C18D94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		907111F31C8DC21200C18D94 /* Build configuration list for PBXNativeTarget "MCLocationToolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				907111F41C8DC21200C18D94 /* Debug */,
+				907111F51C8DC21200C18D94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		907111F61C8DC21200C18D94 /* Build configuration list for PBXNativeTarget "MCLocationToolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				907111F71C8DC21200C18D94 /* Debug */,
+				907111F81C8DC21200C18D94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 907111BB1C8DC21200C18D94 /* Project object */;
+}
